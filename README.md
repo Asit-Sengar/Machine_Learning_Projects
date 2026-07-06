@@ -35,15 +35,15 @@ Each project will focus on:
 
 ## Algorithms & Topics I Plan To Explore 🧠
 
-| Category | Algorithms / Techniques |
-| --- | --- |
-| Regression | Linear Regression, Polynomial Regression, Ridge, Lasso |
-| Classification | Logistic Regression, KNN, Decision Tree, Random Forest, SVM, Naive Bayes |
-| Clustering | K-Means, Hierarchical Clustering, DBSCAN |
-| Ensemble Learning | Random Forest, Gradient Boosting, XGBoost, AdaBoost |
-| Dimensionality Reduction | PCA, Feature Selection |
-| Model Evaluation | Accuracy, Precision, Recall, F1 Score, RMSE, MAE, R2 Score |
-| Data Processing | Data Cleaning, EDA, Feature Engineering, Encoding, Scaling |
+| Category                 | Algorithms / Techniques                                                  |
+| ------------------------ | ------------------------------------------------------------------------ |
+| Regression               | Linear Regression, Polynomial Regression, Ridge, Lasso                   |
+| Classification           | Logistic Regression, KNN, Decision Tree, Random Forest, SVM, Naive Bayes |
+| Clustering               | K-Means, Hierarchical Clustering, DBSCAN                                 |
+| Ensemble Learning        | Random Forest, Gradient Boosting, XGBoost, AdaBoost                      |
+| Dimensionality Reduction | PCA, Feature Selection                                                   |
+| Model Evaluation         | Accuracy, Precision, Recall, F1 Score, RMSE, MAE, R2 Score               |
+| Data Processing          | Data Cleaning, EDA, Feature Engineering, Encoding, Scaling               |
 
 ---
 
@@ -65,9 +65,9 @@ Machine_Learning_Projects/
 
 ## Current Projects 🚀
 
-| Project | Description | Status |
-| --- | --- | --- |
-| [House Price Prediction](./House_Price_Prediction) | Predicting house prices using machine learning techniques. | Added |
+| Project                                            | Description                                                | Status |
+| -------------------------------------------------- | ---------------------------------------------------------- | ------ |
+| [House Price Prediction](./House_Price_Prediction) | Predicting house prices using machine learning techniques. | Added  |
 
 More projects will be added as I continue learning and building.
 
@@ -129,7 +129,13 @@ This repository is my personal machine learning practice space. It will help me:
 
 ## Connect 🤝
 
-If you find this repository helpful or interesting, feel free to explore the projects, share feedback, and follow along as I continue adding more machine learning work.
+If you find this repository helpful or interesting, feel free to explore the projects, share feedback, and connect with me on LinkedIn.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">
+    <img src="https://img.shields.io/badge/Connect%20with%20me%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with me on LinkedIn" />
+  </a>
+</p>
 
 <p align="center">
   <strong>Learning by building. Improving by experimenting. Growing with every project.</strong>
