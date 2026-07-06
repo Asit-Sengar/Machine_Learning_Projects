@@ -132,7 +132,7 @@ This repository is my personal machine learning practice space. It will help me:
 If you find this repository helpful or interesting, feel free to explore the projects, share feedback, and connect with me on LinkedIn.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">
+  <a href="https://www.linkedin.com/in/asit-sengar-743595272/" target="_blank">
     <img src="https://img.shields.io/badge/Connect%20with%20me%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with me on LinkedIn" />
   </a>
 </p>
