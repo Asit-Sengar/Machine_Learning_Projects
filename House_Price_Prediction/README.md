@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python" />
   <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/scikit-learn-ML-orange" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter" alt="Jupyter Notebook" />
   <img src="https://img.shields.io/badge/Status-Live-success" alt="Status" />
 </p>
 
@@ -12,14 +12,6 @@ A polished end-to-end machine learning project that predicts residential propert
 ## 🌟 Overview
 
 This project combines data analysis, machine learning, and deployment into a simple and practical solution. It demonstrates how a predictive model can be trained on historical housing data and served through a modern interactive web app.
-
-## ✨ Key Features
-
-- Predict house prices from user-provided property features
-- Interactive web interface built with Streamlit
-- Machine learning workflow implemented using Python and scikit-learn
-- Reusable training notebook for exploration and model development
-- Ready-to-run project structure with dependencies listed clearly
 
 ## 🛠️ Tech Stack
 
@@ -119,4 +111,4 @@ This project is a practical demonstration of building a machine learning solutio
 
 Add your Render deployment link here:
 
-- https://your-house-price-prediction.onrender.com/
+- https://your-render-link-here.onrender.com/
