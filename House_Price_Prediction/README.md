@@ -1,5 +1,12 @@
 # 🏠 House Price Prediction
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/scikit-learn-ML-orange" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Status-Live-success" alt="Status" />
+</p>
+
 A polished end-to-end machine learning project that predicts residential property prices using a regression model and a user-friendly web interface. The application allows users to enter details about a house and receive an estimated price instantly.
 
 ## 🌟 Overview
@@ -96,22 +103,20 @@ jupyter notebook
 
 ## 📊 Example Inputs
 
-The app expects values such as:
-
-- Area in square feet
-- Number of bedrooms and bathrooms
-- Number of stories
-- Parking availability
-- Amenities such as main road access, guest room, basement, HVAC, and preferred area
-- Furnishing status
+The app expects values such as area, bedrooms, bathrooms, stories, parking, and furnishing status.
 
 ## 🚀 Future Improvements
 
 - Compare multiple regression models for better accuracy
-- Add feature engineering and data cleaning enhancements
-- Improve the UI with richer visualizations and better styling
-- Deploy the app online using Streamlit Cloud or Heroku
+- Improve the UI with richer visuals and better styling
+- Deploy the app online using a cloud platform
 
 ## ✅ Conclusion
 
-This project is a practical demonstration of building a machine learning solution for real-world prediction tasks. It highlights the full journey from data to deployment in a clear and accessible format.
+This project is a practical demonstration of building a machine learning solution for real-world prediction tasks.
+
+## 🌐 Live Demo
+
+Add your Render deployment link here:
+
+- https://your-house-price-prediction.onrender.com/
