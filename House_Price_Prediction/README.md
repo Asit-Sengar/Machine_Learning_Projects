@@ -109,6 +109,4 @@ This project is a practical demonstration of building a machine learning solutio
 
 ## 🌐 Live Demo
 
-Add your Render deployment link here:
-
-- https://your-render-link-here.onrender.com/
+https://house-price-prediction-asit.onrender.com
