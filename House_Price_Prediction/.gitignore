@@ -5,3 +5,4 @@ __pycache__/
 .agents/
 .claude/
 .vscode/
+logistic_scratch.ipynb
