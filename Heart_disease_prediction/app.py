@@ -11,14 +11,15 @@ with MODEL_PATH.open("rb") as file:
 
 st.set_page_config(
     page_title="Heart Disease Prediction",
-    page_icon="❤️",
     layout="centered",
 )
 
-st.title("❤️ Heart Disease Prediction")
-st.write("Enter the patient details below to estimate heart disease risk.")
+st.title("Heart Disease Prediction")
+st.write("Enter the patient's information to get a prediction.")
 
-with st.form("heart_disease_form"):
+st.header("Patient details")
+
+with st.form("prediction_form"):
     col1, col2 = st.columns(2)
 
     with col1:
@@ -51,9 +52,9 @@ with st.form("heart_disease_form"):
                 "Non-anginal Pain", "Typical Angina"],
         )
 
-    submitted = st.form_submit_button("Predict Risk")
+    predict_button = st.form_submit_button("Predict")
 
-if submitted:
+if predict_button:
     user_input = pd.DataFrame(
         [{
             "Age": age,
@@ -77,12 +78,12 @@ if submitted:
 
     prediction = model.predict(user_input)[0]
     probability = model.predict_proba(user_input)[0][1]
-    risk_label = "High Risk" if prediction == 1 else "Low Risk"
+    risk_label = "High risk" if prediction == 1 else "Low risk"
 
     if prediction == 1:
-        st.error(f"Prediction: {risk_label} ({probability:.2%} probability)")
+        st.error(f"Prediction: {risk_label} ({probability:.2%})")
         st.warning(
-            "This patient is predicted to have heart disease. Please consult a medical professional.")
+            "The model found signs associated with heart disease. Please speak with a medical professional.")
     else:
-        st.success(f"Prediction: {risk_label} ({probability:.2%} probability)")
-        st.info("This patient is predicted to be less likely to have heart disease.")
+        st.success(f"Prediction: {risk_label} ({probability:.2%})")
+        st.info("The model did not find strong signs of heart disease.")
