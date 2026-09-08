@@ -27,3 +27,9 @@ gender = st.selectbox(
     "Gender",
     ["Male", "Female"]
 )
+
+cholestrol = st.number_input(
+    "Cholesterol",
+    min_value=150,
+    max_value=349
+)
