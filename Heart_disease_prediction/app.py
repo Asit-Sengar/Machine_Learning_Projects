@@ -28,7 +28,7 @@ gender = st.selectbox(
     ["Male", "Female"]
 )
 
-cholestrol = st.number_input(
+cholesterol = st.number_input(
     "Cholesterol",
     min_value=150,
     max_value=349
@@ -98,3 +98,31 @@ chest_pain_type = st.selectbox(
     "Chest Pain Type",
     ["Asymptomatic", "Atypical Angina", "Non-anginal Pain", "Typical Angina"]
 )
+
+
+# now i want to create a dataframe of the entered value
+input_dataframe = pd.DataFrame({
+    "Age": [age],
+    "Gender": [gender],
+    "Cholesterol": [cholesterol],
+    "Blood Pressure": [blood_pressure],
+    "Heart Rate": [heart_rate],
+    "Smoking": [smoking],
+    "Alcohol Intake": [alcohol_intake],
+    "Exercise Hours": [exercise_hours],
+    "Family History": [family_history],
+    "Diabetes": [diabetes],
+    "Obesity": [obesity],
+    "Stress Level": [stress_level],
+    "Blood Sugar": [blood_sugar],
+    "Exercise Induced Angina": [exercise_induced_angina],
+    "Chest Pain Type": [chest_pain_type],
+})
+
+
+# predicting the final outcome
+final_prediction = model.predict(input_dataframe)
+if (final_prediction[0] == 1):
+    st.warning("you have high chances of heart disease")
+else:
+    st.success("you are at low risk")
