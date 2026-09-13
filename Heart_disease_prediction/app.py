@@ -120,9 +120,14 @@ input_dataframe = pd.DataFrame({
 })
 
 
-# predicting the final outcome
-final_prediction = model.predict(input_dataframe)
-if (final_prediction[0] == 1):
-    st.warning("you have high chances of heart disease")
-else:
-    st.success("you are at low risk")
+if (st.button("predict")):
+    # predicting the final outcome
+    probability = model.predict_proba(input_dataframe)
+
+    # this give us the probability of heart disease
+    final_probability = probability[0][1] * 100
+
+    if (final_probability[0] == 1):
+        st.warning("you have high chances of heart disease")
+    else:
+        st.success("you are at low risk")
