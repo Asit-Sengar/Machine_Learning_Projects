@@ -1,4 +1,4 @@
 pandas==3.0.3
 streamlit==1.59.2
-scikit-learn==1.7.2
+scikit-learn==1.9.1
 starlette>=1.5.0
