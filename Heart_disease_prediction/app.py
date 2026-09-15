@@ -120,11 +120,19 @@ input_dataframe = pd.DataFrame({
 })
 
 
-if (st.button("predict")):
-    # predicting the final outcome of class 1 that is of getting a heart disease
+if st.button("Predict"):
+
     probability = model.predict_proba(input_dataframe)
 
-    # this give us the probability of class 1
-    final_probability = probability[0][1] * 100
+    # Get the index of the class with the highest probability
+    highest_probability_index = probability[0].argmax()
 
-    st.warning(f"you have {final_probability:.4f}% of getting a heart disease")
+    # Get the highest probability
+    highest_probability = probability[0][highest_probability_index] * 100
+
+    # Get the class name
+    predicted_class = model.classes_[highest_probability_index]
+
+    st.success(
+        f"Predicted class: {predicted_class} ({highest_probability:.2f}%)"
+    )
