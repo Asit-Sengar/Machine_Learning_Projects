@@ -77,11 +77,11 @@ obesity = st.selectbox(
     ["No", "Yes"]
 )
 
-stress_level = st.selectbox(
+stress_level = st.number_input(
     "Stress Level",
-    ["low", "medium", "high"]
+    min_value=1,
+    max_value=10
 )
-
 blood_sugar = st.number_input(
     "Blood Sugar",
     min_value=70,
@@ -129,9 +129,14 @@ if st.button("Predict"):
     # Get the highest probability
     highest_probability = probability[0][highest_probability_index] * 100
 
-    # Get the class name
+    # Get the predicted class
     predicted_class = model.classes_[highest_probability_index]
 
-    st.success(
-        f"Predicted class: {predicted_class} ({highest_probability:.2f}%)"
-    )
+    if predicted_class == 1:
+        st.warning(
+            f"You have {highest_probability:.2f}% chances of getting a heart disease."
+        )
+    else:
+        st.success(
+            f"You have {highest_probability:.2f}% chances of not getting a heart disease."
+        )
