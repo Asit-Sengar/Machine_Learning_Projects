@@ -77,10 +77,9 @@ obesity = st.selectbox(
     ["No", "Yes"]
 )
 
-stress_level = st.number_input(
+stress_level = st.selectbox(
     "Stress Level",
-    min_value=1,
-    max_value=10
+    ["low", "medium", "high"]
 )
 
 blood_sugar = st.number_input(
