@@ -2,6 +2,10 @@
 
 A scikit-learn project that predicts heart disease from health and lifestyle data.
 
+## Live Demo
+
+https://heart-disease-prediction-lv4g.onrender.com/
+
 ## Workflow
 
 1. Load the data from `heart_disease_dataset.csv`.
