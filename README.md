@@ -8,9 +8,10 @@ Right now the repo is small, but I will keep adding projects as I try more algor
 
 ## Current Project
 
-| Project                                            | What it is about                          | Status |
-| -------------------------------------------------- | ----------------------------------------- | ------ |
-| [House Price Prediction](./House_Price_Prediction) | Predicting house prices from housing data | Added  |
+| Project                                                | What it is about                               | Status |
+| ------------------------------------------------------ | ---------------------------------------------- | ------ |
+| [House Price Prediction](./House_Price_Prediction)     | Predicting house prices from housing data      | Added  |
+| [Heart Disease Prediction](./Heart_disease_prediction) | Predicting heart disease risk from health data | Added  |
 
 ## Repository Structure
 

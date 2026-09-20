@@ -11,7 +11,7 @@ import streamlit as st
 
 st.set_page_config(  # this is for setting the page configuration
     page_title="Heart Disease Prediction",
-    page_icon="💀"
+    page_icon="👽"
 )
 
 st.title("Heart Disease Prediction")
