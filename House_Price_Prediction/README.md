@@ -74,17 +74,6 @@ The app expects values like:
 - parking availability
 - furnishing status
 
-## Notes
-
-This project is a straightforward example of an end-to-end machine learning workflow. It shows how a trained model can be turned into an interactive tool that people can use without writing any code.
-
-## Future Improvements
-
-- try multiple regression algorithms to improve accuracy
-- improve the visual design of the app
-- add more detailed prediction explanations
-- deploy the app online for public access
-
 ## Live Demo
 
 https://house-price-prediction-asit.onrender.com
