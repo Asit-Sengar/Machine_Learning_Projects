@@ -12,10 +12,10 @@ https://heart-disease-prediction-lv4g.onrender.com/
 2. Separate the input features from the `Heart Disease` target column.
 3. Split the data into training and testing sets.
 4. Fill missing values, scale numerical features, and one-hot encode categorical features.
-5. Train a Logistic Regression model using the processed data.
-6. Predict results for the test data.
-7. Evaluate the model with accuracy, a confusion matrix, and a classification report.
-8. Save the complete preprocessing and model pipeline as `disease_prediction.pkl`.
+5. Train Logistic Regression, Decision Tree, and Random Forest models using the processed data.
+6. Compare all three models with stratified 5-fold cross-validation on the training data and evaluate the final held-out test split.
+7. Report accuracy, a confusion matrix, and a classification report.
+8. Save the complete preprocessing and selected model pipeline as `disease_prediction.pkl`.
 
 ## Run the Project
 
